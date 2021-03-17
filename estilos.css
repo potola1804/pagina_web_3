@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    background-image: url(imagenes/19366.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.logofamedic{
+    float: left;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.navegacion{
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+a{
+	color: #000000;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.columna{
+    display: flex;
+    height: 75%;
+    align-items: center;
+}
+
+.fila{
+    flex-basis: 40%;
+    margin-top: 5%;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+h5{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.tarjeta p{
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.tarjeta{
+    width: 600px;
+    height: 125px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 15px 55%;
+    transition: transform 0.5s;
+    box-shadow: 2px 2px black;
+}
+
+.tarjeta:hover{
+    transform: translateY(-10px);
+}
+
+.tarjeta1{
+    background-color:rgb(9, 194, 255);
+}
+.tarjeta2{
+    background-color:rgb(16, 195, 255);
+}
+.tarjeta3{
+    background-color:rgb(40, 199, 252);
+}
+
+.textoinferior{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+
+.equipodetrabajo{
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 15px 55%;
+    box-shadow: 2px 2px black;
+}
